@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+.aa{
+    max-width: 96%;
+    margin: 20px;
+    padding: 0px;
+    border-radius: 50px;
+    background-color: #DFD3C3;
+   justify-content: center;
+   text-align: center;
+}
+.back {
+    border: 1px solid  #F8EDE3;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 100px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 50px;
+    background-color:  #F8EDE3;
+    box-shadow: 3px 3px 3px 3px rgb(124, 123, 123);
+
+}
+.back a{
+    color: #7D6E83;
+    text-decoration: none;
+}
+.z{
+  width: 100%;
+  border-radius: 50px;
+  background-color: #DFD3C3;
+   margin: 0px;
+   padding: 0px;
+   justify-content: center;
+   align-items: center;
+   animation-name: noair1;
+   animation-duration: 0.5s;
+}
+.navbar .container-fluid{
+    justify-content:left;
+}
+.ff{
+    font-family: Nabla;
+    font-size: 5rem;
+    cursor:default;
+}
+.i{
+    border: 1px solid #F8EDE3;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #F8EDE3;
+    
+    color: #7D6E83;
+    font-weight: bolder;
+    text-decoration: none;
+    animation-name: noair;
+    animation-duration: 0.5s;
+}
+.i:hover{
+    
+    animation-name: air;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+.z:hover{
+    animation-name: air1;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+   
+}
+
+.image{
+    height: 70px;
+    width: 70px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+}
+@keyframes air {
+    0%{
+       
+        border: 1px solid #F8EDE3;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #F8EDE3;
+        color: #7D6E83;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    100%{
+       
+        border: 1px solid #D0B8A8;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #D0B8A8;
+        color: #7D6E83;
+        text-decoration: none;
+        box-shadow: 3px 3px 3px 3px rgb(124, 123, 123);
+    }
+}
+@keyframes air1 {
+    0%{
+    box-shadow: 0px;
+    }
+    100%{
+        box-shadow: 3px 3px 3px 3px  rgb(162, 160, 160);
+    }
+}
+@keyframes noair1 {
+    0%{
+        box-shadow: 3px 3px 3px 3px  rgb(162, 160, 160);
+
+    }
+    100%{
+        box-shadow: 0px;
+    }
+}
+@keyframes noair {
+    0%{
+        
+        border: 1px solid #D0B8A8;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #D0B8A8;
+        color: #7D6E83;
+        text-decoration: none;
+        box-shadow: 3px 3px 3px 3px rgb(124, 123, 123);
+
+    }
+    100%{
+       
+        border: 1px solid #F8EDE3;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #F8EDE3;
+        color: #7D6E83;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+}
